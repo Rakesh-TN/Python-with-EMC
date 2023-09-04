@@ -1,7 +1,9 @@
-a = input("Meghna is Died or not :" )
+a = input("Meghna is 'Died' or 'lived' : " )
 if (a=="Died"):
     print("surya meet Priya")
-else: 
+elif (a=="lived"):
     print("surya weds Meghna")
+else:
+    print("Enter the Died or lived")
 
     
