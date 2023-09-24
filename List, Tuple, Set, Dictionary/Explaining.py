@@ -24,3 +24,14 @@ print(a)
 a.add(7)
 print(a)
 
+#Dictionary
+a= {
+    "name":"rakesh",
+    "age":23,
+    "aim":"Developer"
+}
+print(a)
+print(a["name"])
+a["age"]=25
+a["color"]="red"
+print(a)
